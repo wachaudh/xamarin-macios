@@ -501,7 +501,13 @@ timestamps {
 
                             if (notarize_mac || notarize_ios) {
                                 pkgs = []
-                                sh ('git clone git@github.com:xamarin/release-scripts -b sign-and-notarized')
+                                if (fileExists('release-scripts')) {
+                                    dir('release-scripts') {
+                                        sh ('git checkout sign-and-notarized && git pull')
+                                    }
+                                } else {
+                                    sh ('git clone git@github.com:xamarin/release-scripts -b sign-and-notarized')
+                                }
                                 if (notarize_mac)
                                     pkgs = pkgs + xmPackages
                                 if (notarize_ios)
