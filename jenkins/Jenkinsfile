@@ -478,7 +478,7 @@ timestamps {
 
                         stage ('Signing') {
                             def notarize_mac = true
-                            def notarize_ios = false
+                            def notarize_ios = true
                             def entitlements = "${workspace}/xamarin-macios/mac-entitlements.plist"
                             currentStage = "${STAGE_NAME}"
                             echo ("Building on ${env.NODE_NAME}")
