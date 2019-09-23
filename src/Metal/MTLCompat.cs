@@ -1,12 +1,9 @@
-using System;
+#if XAMCORE_2_0 || !MONOMAC
+
 using ObjCRuntime;
 
 namespace Metal {
 
-	public partial class MTLSharedTextureHandle {
-
-		[Obsolete ("Default constructor was removed. Do not use.")]
-		public MTLSharedTextureHandle () {}
-	}
-
 }
+
+#endif
