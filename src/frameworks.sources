@@ -1493,6 +1493,11 @@ SYSTEMCONFIGURATION_SOURCES = \
 	SystemConfiguration/StatusCodeError.cs \
 	SystemConfiguration/SystemConfigurationException.cs \
 
+# SystemExtensions
+
+SYSTEM_EXTENSIONS = \
+	SystemExtensions/Enums.cs \
+
 # TVMLKit
 
 TVMLKIT_CORE_SOURCES = \
@@ -1895,6 +1900,7 @@ MAC_FRAMEWORKS =            \
 	Speech                  \
 	StoreKit                \
 	SystemConfiguration     \
+	SystemExtensions        \
 	UserNotifications       \
 	VideoSubscriberAccount  \
 	VideoToolbox            \
