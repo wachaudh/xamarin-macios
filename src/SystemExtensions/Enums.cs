@@ -6,7 +6,7 @@ using System;
 namespace SystemExtenisons {
 	[Mac (10,15)]
 	[Native]
-	public enum OSSystemExtensionErrorCode : long
+	public enum ErrorCode : long
 	{
 		Unknown = 1,
 		MissingEntitlement,
@@ -25,7 +25,7 @@ namespace SystemExtenisons {
 
 	[Mac (10,15)]
 	[Native]
-	public enum OSSystemExtensionReplacementAction : long
+	public enum Action : long
 	{
 		Cancel,
 		Replace
@@ -33,7 +33,7 @@ namespace SystemExtenisons {
 
 	[Mac (10,15)]
 	[Native]
-	public enum OSSystemExtensionRequestResult : long
+	public enum Result : long
 	{
 		Completed,
 		WillCompleteAfterReboot

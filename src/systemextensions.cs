@@ -68,7 +68,7 @@ namespace SystemExtenisons {
 	{
 		[Abstract]
 		[Export ("request:actionForReplacingExtension:withExtension:")]
-		OSSystemExtensionReplacementAction Request (OSSystemExtensionRequest request, OSSystemExtensionProperties existing, OSSystemExtensionProperties ext);
+		Action Request (OSSystemExtensionRequest request, OSSystemExtensionProperties existing, OSSystemExtensionProperties ext);
 
 		[Abstract]
 		[Export ("requestNeedsUserApproval:")]
@@ -76,7 +76,7 @@ namespace SystemExtenisons {
 
 		[Abstract]
 		[Export ("request:didFinishWithResult:")]
-		void Request (OSSystemExtensionRequest request, OSSystemExtensionRequestResult result);
+		void Request (OSSystemExtensionRequest request, Result result);
 
 		[Abstract]
 		[Export ("request:didFailWithError:")]
