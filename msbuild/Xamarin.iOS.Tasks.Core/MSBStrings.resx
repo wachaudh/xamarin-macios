@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    
+    <data name="M0001" xml:space="preserve">
+        <value>Tool {0} execution started with arguments: {1}
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="M0002" xml:space="preserve">
+        <value>Tool {0} execution finished (exit code = {1}).
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0003" xml:space="preserve">
+        <value>Error executing tool '{0}': {1}
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0004" xml:space="preserve">
+        <value>Failed to codesign '{0}': {1}
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0005" xml:space="preserve">
+        <value>Failed to codesign '{0}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0006" xml:space="preserve">
+        <value>  '{0}' not found.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0007" xml:space="preserve">
+        <value>Error loading '{0}': Unknown image format.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0008" xml:space="preserve">
+        <value>Invalid iTunesArtwork dimensions ({0}x{1}) for '{2}'.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0009" xml:space="preserve">
+        <value>Multiple iTunesArtwork files with the same dimensions detected ({0}x{1}) for '{2}'.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0010" xml:space="preserve">
+        <value>Error loading '{0}': {1}
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0011" xml:space="preserve">
+        <value>Could not parse MinimumOSVersion value '{0}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+     <data name="E0012" xml:space="preserve">
+        <value>Could not parse TargetArchitectures '{0}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0013" xml:space="preserve">
+        <value>The {0} SDK for '{1}' is not installed.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0014" xml:space="preserve">
+        <value>The executable (CFBundleExecutable) name ({0}) cannot end with '.app', because iOS may fail to launch the app.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0015" xml:space="preserve">
+        <value>Applications using a storyboard as the Main Interface must have a deployment target greater than 5.0
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+     <data name="W0016" xml:space="preserve">
+        <value>Can only fake the watchOS 4.3 SDK when building for watchOS.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="M0017" xml:space="preserve">
+        <value>All http loads are already allowed.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="M0018" xml:space="preserve">
+        <value>Allowed arbitrary HTTP loads to support debugging.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="W0019" xml:space="preserve">
+        <value>Supported iPhone orientations have not been set
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="W0020" xml:space="preserve">
+        <value>Supported iPhone orientations are not matched pairs
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="W0021" xml:space="preserve">
+        <value>Supported iPad orientations have not been set
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="W0022" xml:space="preserve">
+        <value>Supported iPad orientations are not matched pairs
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0023" xml:space="preserve">
+        <value>Cannot have more than 1 iTunesMetadata.plist.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0024" xml:space="preserve">
+        <value>Error loading Settings plist file '{0}/Settings.bundle/Root.plist': {1}.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0025" xml:space="preserve">
+        <value>Could not parse the SDK version '{0}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0026" xml:space="preserve">
+        <value>The Apple TVOS SDK is not installed.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0027" xml:space="preserve">
+        <value>The TVOS SDK version '{0}' is not installed, and no newer version was found.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0028" xml:space="preserve">
+        <value>The TVOS SDK version '{0}' is not installed. Using newer version '{1}' instead'.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0029" xml:space="preserve">
+        <value>Could not locate the TVOS platform directory at path '{0}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0030" xml:space="preserve">
+        <value>Could not locate the TVOS '{0}' SDK at path '{1}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+     <data name="E0031" xml:space="preserve">
+        <value>Could not locate the TVOS '{0}' SDK usr path at '{1}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0032" xml:space="preserve">
+        <value>Could not locate SDK bin directory
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0033" xml:space="preserve">
+        <value>The Watch SDK version '{0}' is not installed, and no newer version was found.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="W0034" xml:space="preserve">
+        <value>The Watch SDK version '{0}' is not installed. Using newer version '{1}' instead'.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0035" xml:space="preserve">
+        <value>Could not locate the WatchOS platform directory at path '{0}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0036" xml:space="preserve">
+        <value>Could not locate the WatchOS '{0}' SDK at path '{1}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0037" xml:space="preserve">
+        <value>Could not locate the WatchOS '{0}' SDK usr path at '{1}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0038" xml:space="preserve">
+        <value>The Apple iOS SDK is not installed.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0039" xml:space="preserve">
+        <value>The iOS SDK version '{0}' is not installed, and no newer version was found.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0040" xml:space="preserve">
+        <value>The iOS SDK version '{0}' is not installed. Using newer version '{1}' instead'.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0041" xml:space="preserve">
+        <value>Could not locate the iOS platform directory at path '{0}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0042" xml:space="preserve">
+        <value>Could not locate the iOS '{0}' SDK at path '{1}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0043" xml:space="preserve">
+        <value>Could not locate the iOS '{0}' SDK usr path at '{1}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0044" xml:space="preserve">
+        <value>Could not find a valid Xcode app bundle at '{0}'. Please update your Apple SDK location in Visual Studio's preferences {1}.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0045" xml:space="preserve">
+        <value>Could not find valid a usable Xcode developer path
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0046" xml:space="preserve">
+        <value>Could not find 'Xamarin.iOS'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="M0047" xml:space="preserve">
+        <value>Searching for '{0}' in '{1}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0048" xml:space="preserve">
+        <value>Unknown SDK platform: {0}
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0049" xml:space="preserve">
+        <value>Could not locate the provisioning profile with a Name or UUID of {0}.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0050" xml:space="preserve">
+        <value>Unknown search option: {0}
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="W0051" xml:space="preserve">
+        <value>Unknown native reference type for '{0}'.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="W0052" xml:space="preserve">
+        <value>Dynamic native references are not supported: '{0}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0053" xml:space="preserve">
+        <value>Target architecture ARMv6 is no longer supported in Xamarin.iOS. Please select a supported architecture.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="W0054" xml:space="preserve">
+        <value>Failed to create response file '{0}': {1}
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0055" xml:space="preserve">
+        <value>Could not load Info.plist: {0}
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0056" xml:space="preserve">
+        <value>Could not parse SdkVersion '{0}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0057" xml:space="preserve">
+        <value>Invalid architectures: '{0}'.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0058" xml:space="preserve">
+        <value>Failed to parse the target device information.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0059" xml:space="preserve">
+        <value>No target device found.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0060" xml:space="preserve">
+        <value>No device architecture information found.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0061" xml:space="preserve">
+        <value>Invalid target architecture: '{0}'
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0062" xml:space="preserve">
+        <value>No device operating system information found.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0063" xml:space="preserve">
+        <value>No device model information found.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0064" xml:space="preserve">
+        <value>No iOS version information found.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0065" xml:space="preserve">
+        <value>Resources rules file '{0}' not found.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0066" xml:space="preserve">
+        <value>Failed to parse SdkVersion '{0}'.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0067" xml:space="preserve">
+        <value>Xcode 10 does not support watchOS 1 apps. Either upgrade to watchOS 2 apps, or use an older version of Xcode.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0068" xml:space="preserve">
+        <value>An installation of Xcode >= 6.2 is required to build WatchKit applications.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0069" xml:space="preserve">
+        <value>iOS {0} does not support WatchKit.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E0070" xml:space="preserve">
+        <value>Failed to locate the WatchKit launcher in the Xcode app bundle.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="W0071" xml:space="preserve">
+        <value>The App Extension '{0}' has a CFBundleShortVersionString ({1}) that does not match the main app bundle's CFBundleShortVersionString ({2})
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="W0072" xml:space="preserve">
+        <value>The App Extension '{0}' does not specify a CFBundleVersion
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="W0073" xml:space="preserve">
+        <value>The App Extension '{0}' has a CFBundleVersion ({1}) that does not match the main app bundle's CFBundleVersion ({2})
+        </value>
+        <comment>
+        </comment>
+    </data>
+   
+    
+    <data name="E7001" xml:space="preserve">
+        <value>Could not resolve host IPs for WiFi debugger settings.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E7002" xml:space="preserve">
+        <value>This machine does not have any network adapters. This is required when debugging or profiling on device over WiFi.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E7003" xml:space="preserve">
+        <value>The App Extension '{0}' does not contain an Info.plist.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E7004" xml:space="preserve">
+        <value>The App Extension '{0}' does not specify a CFBundleIdentifier.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E7005" xml:space="preserve">
+        <value>The App Extension '{0}' does not specify a CFBundleExecutable.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E7006" xml:space="preserve">
+        <value>The App Extension '{0}' has an invalid CFBundleIdentifier ({1}), it does not begin with the main app bundle's CFBundleIdentifier ({2}).
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E7007" xml:space="preserve">
+        <value>The App Extension '{0}' has a CFBundleIdentifier ({1}) that ends with the illegal suffix ".key".
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E7008" xml:space="preserve">
+        <value>The App Extension '{0}' does not specify a CFBundleShortVersionString.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E7009" xml:space="preserve">
+        <value>The App Extension '{0}' has an invalid Info.plist: it does not contain an NSExtension dictionary.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    <data name="E7010" xml:space="preserve">
+        <value>The App Extension '{0}' has an invalid Info.plist: the NSExtension dictionary does not contain an NSExtensionPointIdentifier value.
+        </value>
+        <comment>
+        </comment>
+    </data>
+    
+    
+    
+</root>

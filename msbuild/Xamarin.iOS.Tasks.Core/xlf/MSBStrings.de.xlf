@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="de" original="../MSBStrings.resx">
+    <body>
+      <trans-unit id="E0003">
+        <source>Error executing tool '{0}': {1}
+        </source>
+        <target state="new">Error executing tool '{0}': {1}
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0004">
+        <source>Failed to codesign '{0}': {1}
+        </source>
+        <target state="new">Failed to codesign '{0}': {1}
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0005">
+        <source>Failed to codesign '{0}'
+        </source>
+        <target state="new">Failed to codesign '{0}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0006">
+        <source>  '{0}' not found.
+        </source>
+        <target state="new">  '{0}' not found.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0007">
+        <source>Error loading '{0}': Unknown image format.
+        </source>
+        <target state="new">Error loading '{0}': Unknown image format.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0008">
+        <source>Invalid iTunesArtwork dimensions ({0}x{1}) for '{2}'.
+        </source>
+        <target state="new">Invalid iTunesArtwork dimensions ({0}x{1}) for '{2}'.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0009">
+        <source>Multiple iTunesArtwork files with the same dimensions detected ({0}x{1}) for '{2}'.
+        </source>
+        <target state="new">Multiple iTunesArtwork files with the same dimensions detected ({0}x{1}) for '{2}'.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0010">
+        <source>Error loading '{0}': {1}
+        </source>
+        <target state="new">Error loading '{0}': {1}
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0011">
+        <source>Could not parse MinimumOSVersion value '{0}'
+        </source>
+        <target state="new">Could not parse MinimumOSVersion value '{0}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0012">
+        <source>Could not parse TargetArchitectures '{0}'
+        </source>
+        <target state="new">Could not parse TargetArchitectures '{0}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0013">
+        <source>The {0} SDK for '{1}' is not installed.
+        </source>
+        <target state="new">The {0} SDK for '{1}' is not installed.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0014">
+        <source>The executable (CFBundleExecutable) name ({0}) cannot end with '.app', because iOS may fail to launch the app.
+        </source>
+        <target state="new">The executable (CFBundleExecutable) name ({0}) cannot end with '.app', because iOS may fail to launch the app.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0015">
+        <source>Applications using a storyboard as the Main Interface must have a deployment target greater than 5.0
+        </source>
+        <target state="new">Applications using a storyboard as the Main Interface must have a deployment target greater than 5.0
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0023">
+        <source>Cannot have more than 1 iTunesMetadata.plist.
+        </source>
+        <target state="new">Cannot have more than 1 iTunesMetadata.plist.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0024">
+        <source>Error loading Settings plist file '{0}/Settings.bundle/Root.plist': {1}.
+        </source>
+        <target state="new">Error loading Settings plist file '{0}/Settings.bundle/Root.plist': {1}.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0025">
+        <source>Could not parse the SDK version '{0}'
+        </source>
+        <target state="new">Could not parse the SDK version '{0}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0026">
+        <source>The Apple TVOS SDK is not installed.
+        </source>
+        <target state="new">The Apple TVOS SDK is not installed.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0027">
+        <source>The TVOS SDK version '{0}' is not installed, and no newer version was found.
+        </source>
+        <target state="new">The TVOS SDK version '{0}' is not installed, and no newer version was found.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0028">
+        <source>The TVOS SDK version '{0}' is not installed. Using newer version '{1}' instead'.
+        </source>
+        <target state="new">The TVOS SDK version '{0}' is not installed. Using newer version '{1}' instead'.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0029">
+        <source>Could not locate the TVOS platform directory at path '{0}'
+        </source>
+        <target state="new">Could not locate the TVOS platform directory at path '{0}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0030">
+        <source>Could not locate the TVOS '{0}' SDK at path '{1}'
+        </source>
+        <target state="new">Could not locate the TVOS '{0}' SDK at path '{1}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0031">
+        <source>Could not locate the TVOS '{0}' SDK usr path at '{1}'
+        </source>
+        <target state="new">Could not locate the TVOS '{0}' SDK usr path at '{1}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0032">
+        <source>Could not locate SDK bin directory
+        </source>
+        <target state="new">Could not locate SDK bin directory
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0033">
+        <source>The Watch SDK version '{0}' is not installed, and no newer version was found.
+        </source>
+        <target state="new">The Watch SDK version '{0}' is not installed, and no newer version was found.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0035">
+        <source>Could not locate the WatchOS platform directory at path '{0}'
+        </source>
+        <target state="new">Could not locate the WatchOS platform directory at path '{0}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0036">
+        <source>Could not locate the WatchOS '{0}' SDK at path '{1}'
+        </source>
+        <target state="new">Could not locate the WatchOS '{0}' SDK at path '{1}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0037">
+        <source>Could not locate the WatchOS '{0}' SDK usr path at '{1}'
+        </source>
+        <target state="new">Could not locate the WatchOS '{0}' SDK usr path at '{1}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0038">
+        <source>The Apple iOS SDK is not installed.
+        </source>
+        <target state="new">The Apple iOS SDK is not installed.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0039">
+        <source>The iOS SDK version '{0}' is not installed, and no newer version was found.
+        </source>
+        <target state="new">The iOS SDK version '{0}' is not installed, and no newer version was found.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0040">
+        <source>The iOS SDK version '{0}' is not installed. Using newer version '{1}' instead'.
+        </source>
+        <target state="new">The iOS SDK version '{0}' is not installed. Using newer version '{1}' instead'.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0041">
+        <source>Could not locate the iOS platform directory at path '{0}'
+        </source>
+        <target state="new">Could not locate the iOS platform directory at path '{0}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0042">
+        <source>Could not locate the iOS '{0}' SDK at path '{1}'
+        </source>
+        <target state="new">Could not locate the iOS '{0}' SDK at path '{1}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0043">
+        <source>Could not locate the iOS '{0}' SDK usr path at '{1}'
+        </source>
+        <target state="new">Could not locate the iOS '{0}' SDK usr path at '{1}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0044">
+        <source>Could not find a valid Xcode app bundle at '{0}'. Please update your Apple SDK location in Visual Studio's preferences {1}.
+        </source>
+        <target state="new">Could not find a valid Xcode app bundle at '{0}'. Please update your Apple SDK location in Visual Studio's preferences {1}.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0045">
+        <source>Could not find valid a usable Xcode developer path
+        </source>
+        <target state="new">Could not find valid a usable Xcode developer path
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0046">
+        <source>Could not find 'Xamarin.iOS'
+        </source>
+        <target state="new">Could not find 'Xamarin.iOS'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0048">
+        <source>Unknown SDK platform: {0}
+        </source>
+        <target state="new">Unknown SDK platform: {0}
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0049">
+        <source>Could not locate the provisioning profile with a Name or UUID of {0}.
+        </source>
+        <target state="new">Could not locate the provisioning profile with a Name or UUID of {0}.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0050">
+        <source>Unknown search option: {0}
+        </source>
+        <target state="new">Unknown search option: {0}
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0053">
+        <source>Target architecture ARMv6 is no longer supported in Xamarin.iOS. Please select a supported architecture.
+        </source>
+        <target state="new">Target architecture ARMv6 is no longer supported in Xamarin.iOS. Please select a supported architecture.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0055">
+        <source>Could not load Info.plist: {0}
+        </source>
+        <target state="new">Could not load Info.plist: {0}
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0056">
+        <source>Could not parse SdkVersion '{0}'
+        </source>
+        <target state="new">Could not parse SdkVersion '{0}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0057">
+        <source>Invalid architectures: '{0}'.
+        </source>
+        <target state="new">Invalid architectures: '{0}'.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0058">
+        <source>Failed to parse the target device information.
+        </source>
+        <target state="new">Failed to parse the target device information.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0059">
+        <source>No target device found.
+        </source>
+        <target state="new">No target device found.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0060">
+        <source>No device architecture information found.
+        </source>
+        <target state="new">No device architecture information found.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0061">
+        <source>Invalid target architecture: '{0}'
+        </source>
+        <target state="new">Invalid target architecture: '{0}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0062">
+        <source>No device operating system information found.
+        </source>
+        <target state="new">No device operating system information found.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0063">
+        <source>No device model information found.
+        </source>
+        <target state="new">No device model information found.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0064">
+        <source>No iOS version information found.
+        </source>
+        <target state="new">No iOS version information found.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0065">
+        <source>Resources rules file '{0}' not found.
+        </source>
+        <target state="new">Resources rules file '{0}' not found.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0066">
+        <source>Failed to parse SdkVersion '{0}'.
+        </source>
+        <target state="new">Failed to parse SdkVersion '{0}'.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0067">
+        <source>Xcode 10 does not support watchOS 1 apps. Either upgrade to watchOS 2 apps, or use an older version of Xcode.
+        </source>
+        <target state="new">Xcode 10 does not support watchOS 1 apps. Either upgrade to watchOS 2 apps, or use an older version of Xcode.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0068">
+        <source>An installation of Xcode &gt;= 6.2 is required to build WatchKit applications.
+        </source>
+        <target state="new">An installation of Xcode &gt;= 6.2 is required to build WatchKit applications.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0069">
+        <source>iOS {0} does not support WatchKit.
+        </source>
+        <target state="new">iOS {0} does not support WatchKit.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E0070">
+        <source>Failed to locate the WatchKit launcher in the Xcode app bundle.
+        </source>
+        <target state="new">Failed to locate the WatchKit launcher in the Xcode app bundle.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E7001">
+        <source>Could not resolve host IPs for WiFi debugger settings.
+        </source>
+        <target state="new">Could not resolve host IPs for WiFi debugger settings.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E7002">
+        <source>This machine does not have any network adapters. This is required when debugging or profiling on device over WiFi.
+        </source>
+        <target state="new">This machine does not have any network adapters. This is required when debugging or profiling on device over WiFi.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E7003">
+        <source>The App Extension '{0}' does not contain an Info.plist.
+        </source>
+        <target state="new">The App Extension '{0}' does not contain an Info.plist.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E7004">
+        <source>The App Extension '{0}' does not specify a CFBundleIdentifier.
+        </source>
+        <target state="new">The App Extension '{0}' does not specify a CFBundleIdentifier.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E7005">
+        <source>The App Extension '{0}' does not specify a CFBundleExecutable.
+        </source>
+        <target state="new">The App Extension '{0}' does not specify a CFBundleExecutable.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E7006">
+        <source>The App Extension '{0}' has an invalid CFBundleIdentifier ({1}), it does not begin with the main app bundle's CFBundleIdentifier ({2}).
+        </source>
+        <target state="new">The App Extension '{0}' has an invalid CFBundleIdentifier ({1}), it does not begin with the main app bundle's CFBundleIdentifier ({2}).
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E7007">
+        <source>The App Extension '{0}' has a CFBundleIdentifier ({1}) that ends with the illegal suffix ".key".
+        </source>
+        <target state="new">The App Extension '{0}' has a CFBundleIdentifier ({1}) that ends with the illegal suffix ".key".
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E7008">
+        <source>The App Extension '{0}' does not specify a CFBundleShortVersionString.
+        </source>
+        <target state="new">The App Extension '{0}' does not specify a CFBundleShortVersionString.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E7009">
+        <source>The App Extension '{0}' has an invalid Info.plist: it does not contain an NSExtension dictionary.
+        </source>
+        <target state="new">The App Extension '{0}' has an invalid Info.plist: it does not contain an NSExtension dictionary.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="E7010">
+        <source>The App Extension '{0}' has an invalid Info.plist: the NSExtension dictionary does not contain an NSExtensionPointIdentifier value.
+        </source>
+        <target state="new">The App Extension '{0}' has an invalid Info.plist: the NSExtension dictionary does not contain an NSExtensionPointIdentifier value.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="M0001">
+        <source>Tool {0} execution started with arguments: {1}
+        </source>
+        <target state="new">Tool {0} execution started with arguments: {1}
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="M0002">
+        <source>Tool {0} execution finished (exit code = {1}).
+        </source>
+        <target state="new">Tool {0} execution finished (exit code = {1}).
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="M0017">
+        <source>All http loads are already allowed.
+        </source>
+        <target state="new">All http loads are already allowed.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="M0018">
+        <source>Allowed arbitrary HTTP loads to support debugging.
+        </source>
+        <target state="new">Allowed arbitrary HTTP loads to support debugging.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="M0047">
+        <source>Searching for '{0}' in '{1}'
+        </source>
+        <target state="new">Searching for '{0}' in '{1}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0016">
+        <source>Can only fake the watchOS 4.3 SDK when building for watchOS.
+        </source>
+        <target state="new">Can only fake the watchOS 4.3 SDK when building for watchOS.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0019">
+        <source>Supported iPhone orientations have not been set
+        </source>
+        <target state="new">Supported iPhone orientations have not been set
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0020">
+        <source>Supported iPhone orientations are not matched pairs
+        </source>
+        <target state="new">Supported iPhone orientations are not matched pairs
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0021">
+        <source>Supported iPad orientations have not been set
+        </source>
+        <target state="new">Supported iPad orientations have not been set
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0022">
+        <source>Supported iPad orientations are not matched pairs
+        </source>
+        <target state="new">Supported iPad orientations are not matched pairs
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0034">
+        <source>The Watch SDK version '{0}' is not installed. Using newer version '{1}' instead'.
+        </source>
+        <target state="new">The Watch SDK version '{0}' is not installed. Using newer version '{1}' instead'.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0051">
+        <source>Unknown native reference type for '{0}'.
+        </source>
+        <target state="new">Unknown native reference type for '{0}'.
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0052">
+        <source>Dynamic native references are not supported: '{0}'
+        </source>
+        <target state="new">Dynamic native references are not supported: '{0}'
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0054">
+        <source>Failed to create response file '{0}': {1}
+        </source>
+        <target state="new">Failed to create response file '{0}': {1}
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0071">
+        <source>The App Extension '{0}' has a CFBundleShortVersionString ({1}) that does not match the main app bundle's CFBundleShortVersionString ({2})
+        </source>
+        <target state="new">The App Extension '{0}' has a CFBundleShortVersionString ({1}) that does not match the main app bundle's CFBundleShortVersionString ({2})
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0072">
+        <source>The App Extension '{0}' does not specify a CFBundleVersion
+        </source>
+        <target state="new">The App Extension '{0}' does not specify a CFBundleVersion
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+      <trans-unit id="W0073">
+        <source>The App Extension '{0}' has a CFBundleVersion ({1}) that does not match the main app bundle's CFBundleVersion ({2})
+        </source>
+        <target state="new">The App Extension '{0}' has a CFBundleVersion ({1}) that does not match the main app bundle's CFBundleVersion ({2})
+        </target>
+        <note>
+        </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

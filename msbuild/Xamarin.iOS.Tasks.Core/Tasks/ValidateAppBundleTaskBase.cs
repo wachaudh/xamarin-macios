@@ -7,6 +7,7 @@ using Microsoft.Build.Utilities;
 
 using Xamarin.MacDev;
 using Xamarin.MacDev.Tasks;
+using MSBLocalization;
 
 namespace Xamarin.iOS.Tasks
 {
@@ -36,7 +37,7 @@ namespace Xamarin.iOS.Tasks
 			var name = Path.GetFileNameWithoutExtension (path);
 			var info = Path.Combine (path, "Info.plist");
 			if (!File.Exists (info)) {
-				Log.LogError (7003, path, $"The App Extension '{name}' does not contain an Info.plist.");
+				Log.LogError (7003, path, String.Format (MSBStrings.E7003, name));
 				return;
 			}
 
@@ -44,7 +45,7 @@ namespace Xamarin.iOS.Tasks
 
 			var bundleIdentifier = plist.GetCFBundleIdentifier ();
 			if (string.IsNullOrEmpty (bundleIdentifier)) {
-				Log.LogError (7004, info, $"The App Extension '{name}' does not specify a CFBundleIdentifier.");
+				Log.LogError (7004, info, String.Format (MSBStrings.E7004, name));
 				return;
 			}
 
@@ -54,38 +55,38 @@ namespace Xamarin.iOS.Tasks
 
 			var executable = plist.GetCFBundleExecutable ();
 			if (string.IsNullOrEmpty (executable))
-				Log.LogError (7005, info, $"The App Extension '{name}' does not specify a CFBundleExecutable.");
+				Log.LogError (7005, info, String.Format (MSBStrings.E7005, name));
 
 			if (!bundleIdentifier.StartsWith (mainBundleIdentifier + ".", StringComparison.Ordinal))
-				Log.LogError (7006, info, $"The App Extension '{name}' has an invalid CFBundleIdentifier ({bundleIdentifier}), it does not begin with the main app bundle's CFBundleIdentifier ({mainBundleIdentifier}).");
+				Log.LogError (7006, info, String.Format (MSBStrings.E7006, name, bundleIdentifier, mainBundleIdentifier));
 
 			if (bundleIdentifier.EndsWith (".key", StringComparison.Ordinal))
-				Log.LogError (7007, info, $"The App Extension '{name}' has a CFBundleIdentifier ({bundleIdentifier}) that ends with the illegal suffix \".key\".");
+				Log.LogError (7007, info, String.Format (MSBStrings.E7007, name, bundleIdentifier));
 
 			var shortVersionString = plist.GetCFBundleShortVersionString ();
 			if (string.IsNullOrEmpty (shortVersionString))
-				Log.LogError (7008, info, $"The App Extension '{name}' does not specify a CFBundleShortVersionString.");
+				Log.LogError (7008, info, String.Format (MSBStrings.E7008, name));
 
 			if (shortVersionString != mainShortVersionString)
-				Log.LogWarning ("The App Extension '{0}' has a CFBundleShortVersionString ({1}) that does not match the main app bundle's CFBundleShortVersionString ({2})", name, shortVersionString, mainShortVersionString);
+				Log.LogWarning (MSBStrings.W0071, name, shortVersionString, mainShortVersionString);
 
 			var version = plist.GetCFBundleVersion ();
 			if (string.IsNullOrEmpty (version))
-				Log.LogWarning ("The App Extension '{0}' does not specify a CFBundleVersion", name);
+				Log.LogWarning (MSBStrings.W0072, name);
 
 			if (version != mainVersion)
-				Log.LogWarning ("The App Extension '{0}' has a CFBundleVersion ({1}) that does not match the main app bundle's CFBundleVersion ({2})", name, version, mainVersion);
+				Log.LogWarning (MSBStrings.W0073, name, version, mainVersion);
 
 			var extension = plist.Get<PDictionary> ("NSExtension");
 			if (extension == null) {
-				Log.LogError (7009, info, $"The App Extension '{name}' has an invalid Info.plist: it does not contain an NSExtension dictionary.");
+				Log.LogError (7009, info, String.Format (MSBStrings.E7009, name));
 				return;
 			}
 
 			var extensionPointIdentifier = extension.GetString ("NSExtensionPointIdentifier").Value;
 
 			if (string.IsNullOrEmpty (extensionPointIdentifier)) {
-				Log.LogError (7010, info, $"The App Extension '{name}' has an invalid Info.plist: the NSExtension dictionary does not contain an NSExtensionPointIdentifier value.");
+				Log.LogError (7010, info, String.Format (MSBStrings.E7010, name));
 				return;
 			}
 
