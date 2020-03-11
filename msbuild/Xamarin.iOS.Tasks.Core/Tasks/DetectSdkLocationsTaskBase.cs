@@ -142,7 +142,7 @@ namespace Xamarin.iOS.Tasks
 			var sdkVersion = requestedSdkVersion.ResolveIfDefault (currentSdk, SdkIsSimulator);
 			if (!currentSdk.SdkIsInstalled (sdkVersion, SdkIsSimulator)) {
 				sdkVersion = currentSdk.GetClosestInstalledSdk (sdkVersion, SdkIsSimulator);
-
+				Console.WriteLine(Xamarin.Localization.MSBuild.Resources.sdf);
 				if (sdkVersion.IsUseDefault || !currentSdk.SdkIsInstalled (sdkVersion, SdkIsSimulator)) {
 					if (requestedSdkVersion.IsUseDefault) {
 						Log.LogError ("The Apple TVOS SDK is not installed.");

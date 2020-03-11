@@ -76,7 +76,7 @@ namespace Xamarin.Mac.Tasks
 			}
 
 			SdkVersion = sdkVersion.ToString ();
-
+			Console.WriteLine(Xamarin.Localization.MSBuild.Resources.sdf);
 			SdkRoot = MacOSXSdks.Native.GetSdkPath (sdkVersion);
 			if (string.IsNullOrEmpty (SdkRoot))
 				Log.LogError ("Could not locate the macOS '{0}' SDK at path '{1}'", SdkVersion, SdkRoot);

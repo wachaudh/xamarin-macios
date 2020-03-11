@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
+<!-- <Project DefaultTargets="AutoBuild" Sdk="Microsoft.NET.Sdk"> -->
+<!-- <Project Sdk="Microsoft.NET.Sdk" InitialTargets="AutoBuild"> -->
+
   <PropertyGroup>
     <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -15,6 +18,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\external\Xamarin.MacDev\Xamarin.MacDev\Xamarin.MacDev.csproj" />
+    <ProjectReference Include="..\Xamarin.Localization.MSBuild\Xamarin.Localization.MSBuild.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\tools\common\StringUtils.cs">
@@ -32,4 +36,10 @@
       <Link>errors.resx</Link>
     </None>
   </ItemGroup>
+ <Target Name="AutoBuild" BeforeTargets="PrepareForBuild" DependsOnTargets="BuildProject1">
+  </Target>
+
+  <Target Name="BuildProject1">
+    <MSBuild Projects="../Xamarin.Localization.MSBuild/Xamarin.Localization.MSBuild.csproj" Targets="build" />
+  </Target>
 </Project>

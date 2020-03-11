@@ -251,6 +251,7 @@ namespace Xamarin.MacDev.Tasks
 			}
 
 			if (AppManifest != null) {
+				Console.WriteLine(Xamarin.Localization.MSBuild.Resources.sdf);
 				try {
 					plist = PDictionary.FromFile (AppManifest.ItemSpec);
 				} catch (Exception ex) {
